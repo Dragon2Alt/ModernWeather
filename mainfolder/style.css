@@ -1,0 +1,159 @@
+
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      background-color: #1e1e1e;
+      color: #eee;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      display: flex;
+    }
+    
+    header input[type="search"] {
+      flex-grow: 1;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 4px;
+      background-color: #3a3a3a;
+      color: #ccc;
+      font-style: italic;
+      outline: none;
+    }
+    
+    header button{
+      background: none;
+      border: none;
+      color: #eee;
+      font-weight: bold;
+      font-size: 1rem;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+    
+    main,
+    header,section{
+      max-width: 400px;
+      margin: 20px auto;
+      padding: 10px;
+      background-color: #2c2c2c;
+      border-radius: 8px;
+      text-align: center;
+    }
+    
+    .location {
+      margin-bottom: 8px;
+      font-size: 1.1rem;
+    }
+    
+    .temperature {
+      font-size: 1.5rem;
+      margin-bottom: 4px;
+    }
+    
+    .feels-like {
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+    
+    .weather-info {
+      display: flex;
+      justify-content: space-between;
+      background-color: #3a3a3a;
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+    
+    .weather-info>div {
+      flex: 1;
+      padding: 15px;
+      color: #ccc;
+      font-size: 0.9rem;
+    }
+    
+    .weather-info .icon {
+      background-color: skyblue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .weather-info .icon img {
+      max-width: 60px;
+      max-height: 60px;
+    }
+    
+    .date-time {
+      background-color: #4a4a4a;
+      padding: 10px;
+      border-radius: 8px;
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+    
+    .stats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      font-size: 0.9rem;
+    }
+    
+    .stats-item{
+      background-color: #32295C;
+      color: #9AD6EA;
+      padding: 15px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .stats-item img,section img{
+      width: 30px;
+      height: 30px;
+      
+    }
+    
+    .stats-item .label {
+      flex-grow: 1;
+      font-style: italic;
+      color: #9AD6EA;
+    }
+    
+    .stats-item .value {
+      font-weight: bold;
+      color: #9AD6EA;
+    }
+    
+    footer,
+    p {
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+    
+    #humid {
+      background: linear-gradient(#c8420d, #1393a7);
+    }
+    
+    #sunS {
+      background: linear-gradient(to right, #F4A460, #FF69B4, #800080);
+    }
+    
+    #sunR {
+      background: linear-gradient(to right, #FF512F, #F09819);
+    }
+    
+    #temp {
+      background: linear-gradient(to right, lightpink, blue);
+    }
+    
+    #winD {
+      background: linear-gradient(to right, lightcoral, coral);
+    }
+    #myDIV{
+      display: none;
+    }

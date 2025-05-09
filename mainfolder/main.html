@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Weather App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <input type="search" id="search-input" placeholder="Search" aria-label="Search city" />
+    <button type="button" id="search-button" aria-label="Search button">🔍</button>
+  </header>
+</body>
+
+<main>
+  <div class="location" aria-live="polite">Manila --°C</div>
+  <div class="temperature">Feels like --°</div>
+  
+  <div class="weather-info">
+    <div class="icon">
+      <img src="" alt="Weather icon" />
+      <p>--</p>
+    </div>
+    <div>
+      <div class="date-time" aria-live="polite">May 1 2025<br />7:31 A.M</div>
+    </div>
+  </div>
+  
+  <div class="stats-grid">
+    <div class="stats-item" id="humid">
+      <img src="/iconfolder/waterdrop.png" alt="Humidity icon" />
+      <div class="label">
+        <div class="value" id="humidity-value">--</div>Humidity
+      </div>
+      
+    </div>
+    <div class="stats-item" id="sunS"><img src="/iconfolder/down.png" alt="down.png">
+      <div class="label">
+        <div class="value" id="sunset-value">--</div>Sunset
+      </div>
+      
+    </div>
+    <div class="stats-item" id="winD">
+      <img src="/iconfolder/wind.png" alt="Wind icon" />
+      <div class="label">
+        <div class="value" id="wind-value">--</div>WindSpeed
+      </div>
+      
+    </div>
+    <div class="stats-item" id="sunR"><img src="/iconfolder/up.png" alt="up.png">
+      <div class="label">
+        <div class="value" id="sunrise-value">--</div>Sunrise
+      </div>
+      
+    </div>
+    <div class="stats-item" id="temp">
+      <img src="/iconfolder/temperature.png" alt="Temperature icon" />
+      <div class="label">
+        <div class="value" id="temp-value">--</div>Temperature
+      </div>
+      
+    </div>
+    <div class="stats-item"><img src="/iconfolder/profile.png" alt="profile.png">
+      <div class="label">
+        <div class="value" id="user-greeting">--</div>UserName
+      </div>
+      
+    </div>
+  </div>
+</main>
+<p><button onclick="aboutUs()">About Us</button></p>
+
+<section id="myDIV">
+  <h1>Developer</h1>
+  <hr>
+  <p>Kian Vincent F. Guro <br>Ferdie Mark Segue</p>
+  <h1>About</h1>
+  <p>This project is a web-based weather dashboard that allows users to search for weather information by city and displays comprehensive, real-time weather data in a user-friendly interface.</p>
+
+</section>
+<footer>
+  <span>Weather App &copy; 2025</span>
+</footer>
+
+<script src="main.js"></script>
+</body>
+
+</html>
