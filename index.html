@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Register Account</title>
-<link rel="stylesheet" href="/registerfolder/style.css">
+  <link rel="stylesheet" href="registerfolder/style.css">
 </head>
 
 <body>
@@ -16,20 +16,22 @@
     <h1>Create Account</h1>
     <form id="register-form">
       <div class="input-group">
+        <label for="reg-username">Username</label>
         <input type="text" id="reg-username" required placeholder="Username" maxlength="4">
+        <label for="reg-password">Password</label>
         <input type="password" id="reg-password" required placeholder="Password">
       </div>
       <button type="submit">Register</button>
     </form>
     <div class="login-link">
-      Already have an account? <a href="/loginfolder/login.html">Login here</a>
+      Already have an account?
+      <a href="loginfolder/login.html">Login here</a>
     </div>
   </div>
   <footer>
     <span>Weather App &copy; 2025</span>
   </footer>
-  
-  <script src="/registerfolder/main.js"></script>
+  <script src="registerfolder/main.js"></script>
 </body>
 
 </html>
