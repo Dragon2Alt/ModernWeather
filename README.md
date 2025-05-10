@@ -26,7 +26,3 @@ For our final project in IT5 and IT10, we created a Weather App that delivers re
 - Ferdie Mark Segue
 
 This project showcases our understanding of modern web design, user experience, and JavaScript interactivity. We welcome your feedback!
-
-#RSUCCMADI_IT10Final_Block3
-#RSUCCMADI_IT5Final_Block3 
-#WeatherApp #Frontend #JavaScript #CSS #HTML
