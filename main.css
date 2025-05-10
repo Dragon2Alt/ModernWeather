@@ -34,7 +34,7 @@
     
     main,
     header,section{
-      max-width: 400px;
+      max-width: 400dvh;
       margin: 20px auto;
       padding: 10px;
       background-color: #2c2c2c;
